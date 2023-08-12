@@ -43,7 +43,7 @@ export const HorizontalScrollbar = ({
           title={item.id || item}
           m="0 40px"
         >
-          {isBodyparts ? (
+          {bodyParts ? (
             <BodyPart
               item={item}
               setBodyPart={setBodyPart}
